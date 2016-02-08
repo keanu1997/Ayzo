@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #C8C8C8;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*===== BASIC LAY-OUT =========================*/
+.pagewrapper{
+	background: yellow;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	background: #BF1304 url(img/20160208_panorama_header.jpg) no-repeat 100%;
+    height: 100px;
+}
+
+/* navigation bar */
+
+nav {
+	background: #F29F05; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F29F05, #F27405); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F29F05, #F27405); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F29F05, #F27405); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F29F05, #F27405); /* Standard syntax */
+}
+
+nav ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+nav li {
+	width: 100%;
+}
+
+nav a {
+	height: 30px;
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	font-weight: bold;
+}
+
+nav a:hover {
+	background: #F27405; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F27405, #F29F05); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F27405, #F29F05); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F27405, #F29F05); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F27405, #F29F05); /* Standard syntax */
+}
+
+
+.main-content {
+	background: #FFF;
+	min-height: 400px;
+}
+
+footer {
+	background: #BF1304;
+	min-height: 100px;
+}
