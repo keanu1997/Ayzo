@@ -1,0 +1,25 @@
+.cart {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+#main-section {
+	width: 65%;
+}
+
+#side {
+	border: 1px solid #069;
+	border-radius: 15px;
+	width: 30%;
+	padding: 20px;
+	min-height: 300px;
+	box-shadow: 5px 5px 15px rgba (0, 0, 0, 0.3);
+	background: #EDEDF8;
+}
+
+#name {
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
