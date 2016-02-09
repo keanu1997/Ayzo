@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shoppingcart</title>
+	<link rel="stylesheet" href="shoppingcart.css" type="text/css"/>
+	<script sr="shoppingcart.js" type="text/javascript"></script>
+	<script>
+		var scart = new.shoppingcart(); 
+		scart.PayPal.business = sandbox@paypal.com;
+		scart.inventory.Add("HappyHaaknaald","HappyHaaknaald_(Sumi-e)","49,94", "HappyHaaknaald_(Sumi-e)", "https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj4zcae6erKAhUEIpoKHbElDYwQjRwIBw&url=http%3A%2F%2Fwww.draadpracht.nl%2Fhaaknaalddubbel&psig=AFQjCNHbNiU8_FCTpT5BbwSjrAtdAGu7PA&ust=1455112128888976")
+
+		scart.inventory.Add("HappyHaaknaald2","HappyHaaknaald2_(Sumi-e)","49,94", "HappyHaaknaald2_(Sumi-e)", "https://www.google.nl/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj4zcae6erKAhUEIpoKHbElDYwQjRwIBw&url=http%3A%2F%2Fwww.draadpracht.nl%2Fhaaknaalddubbel&psig=AFQjCNHbNiU8_FCTpT5BbwSjrAtdAGu7PA&ust=1455112128888976")
+
+	</script>
+</head>
+<body>
+	
+	<div id="HappyHaaknaald.item"></div>
+
+	<div id="HappyHaaknaald2.item"></div>
+
+	<input type="button" onclick="scart.Show" value="Show cart"/>
+
+</body>
+</html>
